@@ -1,0 +1,85 @@
+#app {
+  .section-wrapper {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+    padding: 13px;
+
+    &:hover {
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+      border-color: transparent;
+      position: relative;
+    }
+
+    .section-title {
+      font-size: 16px;
+      margin-bottom: 13px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .chart-controller {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .table-controller {
+    display: flex;
+    justify-content: space-between;
+  
+    .controller-list {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      padding-right: 15px;
+  
+      .controller-item {
+        width: 20%;
+        margin-right: 10px;
+      }
+  
+      .controller-input {
+        width: 70%;
+      }
+    }
+  }
+
+  .page-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-label {
+    margin-bottom: 5px;
+  }
+
+  .chart-normal {
+    width: 100%;
+    height: 500px;
+  }
+
+  .select-check-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: default;
+
+    .select-check-button {
+      flex: 1;
+      padding: 0;
+    }
+  }
+}
