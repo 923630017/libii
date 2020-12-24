@@ -137,7 +137,7 @@ export default {
   },
   mounted() {
     getUserInfo().then((res) => {
-      this.setUser(res.data);
+      this.setUser(res);
     });
   },
   methods: {
